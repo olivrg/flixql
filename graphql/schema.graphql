@@ -1,0 +1,4 @@
+# describes the query
+type Query {
+  name: String!
+}
