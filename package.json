@@ -1,0 +1,9 @@
+{
+  "name": "flixql",
+  "version": "1.0.0",
+  "description": "API with GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/olivrg/flixql.git",
+  "author": "Oli Guei",
+  "license": "MIT"
+}
