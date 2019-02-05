@@ -1,7 +1,9 @@
+import { actors, getById } from "./db";
 // first resolver for the name query that returns tom - see schema.graphql
 const resolvers = {
   Query: {
-    name: () => "tom"
+    actors: () => actors,
+    actor: (_, { id }) => getById(id)
   }
 };
 

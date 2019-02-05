@@ -1,4 +1,13 @@
+# the actor type has a name, age and gender all required
+type Actor {
+  id: Int!
+  name: String!
+  age: Int!
+  gender: String!
+}
+
 # describes the query
 type Query {
-  name: String!
+  actors: [Actor]!
+  actor(id: Int!): Actor
 }
