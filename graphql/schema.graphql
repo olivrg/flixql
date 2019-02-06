@@ -11,3 +11,9 @@ type Query {
   actors: [Actor]!
   actor(id: Int!): Actor
 }
+
+# describe a mutation
+type Mutation {
+  addActor(name: String!, age: Int!, gender: String!): Actor!
+  deleteActor(id: Int!): Boolean!
+}
